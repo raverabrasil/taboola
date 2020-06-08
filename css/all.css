@@ -859,7 +859,42 @@ button.close
 	background-color: #35A344;
 	box-shadow: 0 2px 0 #1f3762,inset 0 1px 3px rgba(255,255,255,.7),0 7px 3px rgba(0,0,0,.18);
 	cursor: pointer!important;
-
+	
+}
+.btn-verde span.hover
+{
+	display: none;
+}
+.btn-verde span.normal
+{
+	display: block;
+}
+.btn-verde:focus,.btn-verde:hover
+{
+	background-image: url(http://maxmoringa.com.br/loja/fundo-btn-verde-hover.jpg);
+	box-shadow: none;
+	color: #fff;
+}
+.btn-verde:focus span.hover,.btn-verde:hover span.hover
+{
+	display: block;
+	width: 118px;
+}
+@media (min-width: 768px)
+{
+	.btn-verde:focus span.hover,.btn-verde:hover span.hover
+	{
+		width: 177px;
+	}
+}
+.btn-verde:focus span.normal,.btn-verde:hover span.normal
+{
+	display: none;
+}
+.btn-verde:active
+{
+	background-image: url(http://maxmoringa.com.br/loja/fundo-btn-verde-click.html);
+}
 .btn-products
 {
 	background-image: url(http://maxmoringa.com.br/loja/fundo-btn-verde.jpg);
