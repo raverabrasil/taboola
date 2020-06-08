@@ -12,14 +12,7 @@ header,nav,section
 {
 	display: block;
 }
-a
-{
-	background-color: transparent;
-}
-a:active,a:hover
-{
-	outline: 0;
-}
+
 b,strong
 {
 	font-weight: 700;
@@ -265,7 +258,7 @@ dd
 }
 .btn
 {
-	background-image: none;
+	background-color: #35A344;
 	border: 1px solid transparent;
 	border-radius: 4px;
 	cursor: pointer;
@@ -1769,7 +1762,7 @@ h1
 	padding: 14px 0;
 	position: relative;
 	text-align: left;
-	text-indent: 80px;
+	text-align: center;
 	width: 50%;
 }
 @media (min-width: 1023px)
