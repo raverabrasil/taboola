@@ -13,6 +13,778 @@ header,nav,section
 	display: block;
 }
 
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Muli', sans-serif;
+    text-transform: uppercase;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1.3;
+    font-family: 'Muli', sans-serif;
+    color: #232323;
+    background-color: #edf1f4;
+}
+b {
+    font-weight: 900;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+header {
+    background-color: #3ae0fb;
+    vertical-align: center;
+    color: #06101a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-weight: 900;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+header h2 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: right;
+}
+.contador {
+    background-color: #2e2e2e;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 999999999;
+}
+.contador h1 {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 12px;
+    padding: 19px 0;
+    float: left;
+    white-space: nowrap;
+}
+.contador em {
+    font-style: normal;
+    color: #ffba00;
+    position: relative;
+}
+.contador h1 em span {
+    font-size: 33px;
+    line-height: 11px;
+    display: inline-block;
+    color: #ffba00;
+}
+.contador h2 {
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    text-align: right;
+    padding: 19px 0;
+    margin-right: 24px;
+    float: right;
+}
+.contador h3 {
+    color: #fff;
+    font-size: 35px;
+    padding: 3px 0;
+    text-align: right;
+    font-weight: 400;
+    float: right;
+}
+.aviso-desconto {
+    padding-top: 50px;
+}
+.aviso {
+    background-color: #06101a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+.aviso-desconto {
+    background-color: #06101a;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+.aviso h1 {
+    font-size: 15px;
+    font-weight: 900;
+}
+.aviso p {
+    font-size: 15px;
+    font-weight: 300;
+}
+.aviso .pagamento {
+    text-align: right;
+}
+.aviso .img-pagamento {
+    padding-right: 0px;
+}
+.aviso h2 {
+    font-size: 15px;
+    font-weight: 900;
+    color: #3ae0fb;
+    margin-right: -60px;
+    margin-top: 10px;
+}
+.utilitarios .row {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px 0.3px rgba(214, 214, 214, 1);
+    -moz-box-shadow: 0px 0px 5px 0.3px rgba(214, 214, 214, 1);
+    box-shadow: 0px 0px 5px 0.3px rgba(214, 214, 214, 1);
+    border-radius: 5px;
+}
+.utilitarios img {
+    float: left;
+    margin-right: 10px;
+}
+.utilitarios p {
+    font-size: 10px;
+}
+.utilitarios p b {
+    font-size: 14px;
+    display: block;
+}
+.utilitarios .uti {
+    border-right: 1px solid #d6d6d6;
+}
+.kits .row {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px 0.3px rgba(214, 214, 214, 1);
+    -moz-box-shadow: 0px 0px 5px 0.3px rgba(214, 214, 214, 1);
+    box-shadow: 0px 0px 5px 0.3px rgba(214, 214, 214, 1);
+    border-radius: 5px;
+}
+.kits h1 {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #06101a;
+    line-height: 1;
+    text-align: left;
+}
+.kits .porcentagem-desconto {
+    background-color: #0d52a6;
+    color: #ffffff;
+    padding: 5px 0;
+}
+.kits .porcentagem-desconto h2 {
+    font-size: 19px;
+    font-weight: 900;
+}
+.kits .porcentagem-desconto h3 {
+    font-size: 8px;
+    font-weight: 900;
+}
+.kits img {
+    width: 85%;
+    margin-top: 20px;
+}
+.kits .descricao p {
+    font-size: 12px;
+    color: #5a5a5a;
+    text-align: left;
+    margin-top: 60px;
+}
+.kits .descricao p b span {
+    color: #0d52a6;
+}
+.kits .valor {
+    background-color: #f3f3f3;
+    padding: 40px 40px 40px;
+}
+.kits .valor p {
+    font-size: 13px;
+    font-weight: 400;
+    color: red;
+    text-align: left;
+    width: 100%;
+}
+.kits .valor p strike {
+    font-size: 20px;
+    font-weight: 900;
+}
+.kits .valor hgroup {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.kits .valor hgroup h1 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: none;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.kits .valor hgroup h2 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: #0d52a6;
+}
+.kits .valor hgroup h3 {
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: none;
+}
+footer {
+    background-color: #06101a;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+footer h1 {
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 900;
+}
+footer img {
+    margin-bottom: 20px;
+}
+footer p {
+    font-size: 12px;
+}
+.direitos {
+    background-color: #030a12;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+.direitos h1 {
+    font-size: 15px;
+    font-weight: 900;
+    text-align: left;
+    color: #0d52a6;
+}
+.direitos ul li {
+    display: inline;
+    font-size: 10px;
+    font-weight: 900;
+    padding: 0 10px;
+}
+.direitos ul li a {
+    color: #fff;
+}
+.botao-faq button{
+	background-color: #35A344;
+    border: 6px solid #ebeced;
+    border-radius: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 15%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.botao button {
+    background-color: #35A344;
+    border: 6px solid #ebeced;
+    border-radius: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+}
+.botao button:hover {
+    background-color: #0d52a6;
+    border: 6px solid #ebeced;
+}
+.botao-footer button {
+    background-color: #0d52a6;
+    border: none;
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 75%;
+    font-size: 12px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+.botao-footer button:hover {
+    border: none;
+}
+@media (max-width: 768px) {
+    header {
+        font-size: 16px;
+    }
+    .aviso {
+        padding-top: 20px;
+    }
+    .aviso-desconto {
+        padding-top: 80px;
+    }
+    .aviso .pagamento {
+        margin-top: 10px;
+    }
+    .aviso h2 {
+        font-size: 10px;
+        margin-right: -15px;
+    }
+    .aviso .img-pagamento img {
+        width: 100%;
+    }
+    .utilitarios p {
+        font-size: 9px;
+    }
+    .utilitarios p b {
+        font-size: 10px;
+    }
+    .kits .valor {
+        padding: 20px 20px 20px;
+    }
+    .kits .valor p {
+        text-align: center;
+    }
+    .kits .valor hgroup h1 {
+        font-size: 14px;
+    }
+    .kits .valor hgroup h2 {
+        font-size: 49px;
+    }
+    footer img {
+        width: 100%;
+    }
+    footer p {
+        font-size: 10px;
+    }
+    .botao-footer button {
+        width: 100%;
+        font-size: 10px;
+    }
+}
+@media (max-width: 420px),
+(max-width: 736px) {
+    header {
+        font-size: 25px;
+        text-align: center;
+    }
+    header h2 {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .aviso {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .aviso-desconto {
+        text-align: center;
+        padding-top: 130px;
+    }
+    .aviso .pagamento {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .aviso h2 {
+        font-size: 15px;
+        margin-right: -15px;
+    }
+    .aviso h2 br {
+        display: none;
+    }
+    .aviso .img-pagamento img {
+        width: 60%;
+        margin-top: 10px;
+    }
+    .utilitarios .uti {
+        margin-bottom: 10px;
+    }
+    .utilitarios p {
+        font-size: 11px;
+    }
+    .utilitarios p b {
+        font-size: 15px;
+    }
+    footer img {
+        width: 70%;
+    }
+    footer p {
+        font-size: 10px;
+    }
+    .direitos {
+        text-align: center;
+    }
+    .direitos h1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .botao-footer button {
+        width: 80%;
+        font-size: 12px;
+    }
+}
+.popup-saida {
+    background-color: #08a0d2;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    display: none;
+    z-index: 9999999999;
+}
+.popup-saida .modal-dialog .modal-content {
+    background-color: #08a0d2;
+    border: none;
+    display: table-cell;
+    vertical-align: middle;
+    box-shadow: none;
+}
+.modal-body {
+    margin-top: 80px;
+}
+.modal-desconto .modal-dialog .modal-content {
+    box-shadow: none;
+    border: 0;
+}
+.modal-desconto .modal-body h4 {
+    font-size: 135px;
+    font-weight: 900;
+    color: #ffba00;
+    text-transform: uppercase;
+}
+.modal-desconto .modal-body .meio span {
+    background-color: #ffba00;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    float: left;
+    padding: 5px 8px;
+    border-radius: 3px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+.modal-desconto .modal-body .meio b {
+    display: block;
+    clear: both;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 29px;
+}
+.modal-desconto .modal-body .meio b i {
+    font-size: 21px;
+    color: #fff;
+    font-style: normal;
+}
+.modal-desconto .modal-body img {
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 122px;
+    width: 30%;
+}
+.modal-desconto .modal-body .meio p {
+    font-size: 14px;
+    color: #fff;
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    right: auto;
+    left: 210px;
+    font-weight: 600;
+}
+.modal-desconto .modal-body .boxs_btns {
+    display: block;
+    margin-top: 40px;
+    position: relative;
+}
+.btn_cart {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    width: 185px;
+    height: 50px;
+    padding: 0;
+    position: absolute;
+    left: calc(30% - 92.5px);
+    line-height: 50px;
+    z-index: 111;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #00698b;
+    color: #fff!important;
+    border-radius: 3px;
+    text-align: center;
+    border: 0;
+}
+.btn_cart.verde {
+    background-color: #8ec145;
+}
+.modal-desconto .modal-body .boxs_btns .dirt {
+    left: auto;
+    right: 85px;
+    background-color: #00698b;
+}
+.modal-desconto .modal-body .txt_info {
+    display: block;
+    margin-top: 128px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+.modal-desconto .close {
+    position: absolute;
+    border: 0;
+    box-shadow: 7.55px 9.33px 17.82px 0.18px rgba(27, 27, 27, .36);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    right: 25px;
+    top: 20px;
+    background-color: #fff;
+    z-index: 999;
+}
+@media (max-width: 420px) {
+    .kits h1 {
+        margin-bottom: 20px;
+    }
+    .aviso {
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+   	.botao-faq button{
+    	width: 100%;
+	}
+
+}
+@media screen and (max-width: 480px) {
+    
+   	.botao-faq button{
+    	width: 100%;
+	}
+
+    .whats img{
+    	width: 100%;
+    }
+
+}
+
+
+@media (max-width: 320px) {
+    header h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+
+ @media only screen and (max-width: 400px) {
+    .mobile-hide{ display: none !important; }
+    }
+    @media only screen and (max-width: 400px) {
+    .mobile{ display: inline !important; }
+    }
+    @media only screen and (min-width: 500px) {
+    .desktop-hide{ display: none !important; }
+    }
+
+#step-graphic-c6cfd27c0c7e9ff93c9b8510cd9b947e.step-graphic-style-1 li {
+            background-color: rgba(255, 41, 41, 1); ?>;
+        }
+        #step-graphic-c6cfd27c0c7e9ff93c9b8510cd9b947e.step-graphic-style-1 li:nth-child(2n) {
+            background-color: rgba(255, 41, 41, 0.75); ?>;
+        }
+.step-graphic-style-1 {
+    width: 100%
+}
+.step-graphic-style-1 li {
+    display: block;
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 20px!important;
+    clear: both;
+    border-radius: 6px;
+    background-color: #004a80
+}
+.step-graphic-style-1 li:nth-child(even) {
+    background-color: rgba(0, 74, 128, .75)
+}
+.step-graphic-style-1 .step-graphic-style-1-number-container {
+    float: left;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    border: 3px solid #fff;
+    box-sizing: border-box;
+    text-align: center
+}
+.step-graphic-style-1 .step-graphic-style-1-number {
+    font-size: 32px;
+    line-height: 43px;
+    color: #fff;
+    position: relative
+}
+.step-graphic-style-1 div {
+    margin-left: 70px
+}
+.step-graphic-style-1 p {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: 1.3em;
+    color: #fff;
+    color: rgba(255, 255, 255, .75);
+    margin: 0
+}
+.step-graphic-style-1 p.heading {
+    font-weight: 700;
+    color: #fff;
+    margin: 5px 0
+}
+
+.cols {
+    position: relative
+}
+
+.headline-style-4 {
+    border-bottom: 3px solid #101010;
+     margin: 0 0 20px;
+    line-height: normal;
+    padding: 10px 0;
+}
+
+
+
+
+
 b,strong
 {
 	font-weight: 700;
