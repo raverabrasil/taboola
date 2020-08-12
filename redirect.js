@@ -6,7 +6,7 @@ window.addEventListener("popstate", function() {
   if(location.hash === "#!/history") {
     history.replaceState(null, document.title, location.pathname);
     setTimeout(function(){
-      location.replace("https://recomendadoparavoce.com/news/ravera/mulheres/");
+      location.replace("https://raverabrasil.com.br/oficial/?src=TABOOLA-BACK");
     },0);
   }
 }, false);
